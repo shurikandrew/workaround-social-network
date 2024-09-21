@@ -1,0 +1,61 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: #610432;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column-reverse;
+  color: rgba(233, 10, 82, 0.5);
+}
+
+.login-input input {
+  border: 2px solid transparent;
+  border-bottom-color: rgba(233, 10, 82, 0.5);
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+  color: rgba(233, 10, 82, 0.5);
+}
+
+.login-input label {
+  transition: all 0.3s ease-in-out;
+}
+
+.login-input input:focus {
+  border-color: #e90a52;
+  outline: none;
+  background: rgba(233, 10, 82, 0.3);
+}
+
+.login-input input:focus + label {
+  color: rgb(233, 10, 82);
+}
+
+.header {
+  font-size: 50px;
+  color: rgba(233, 10, 82, 0.5);
+}
+
+.submit-button {
+  background-color: transparent;
+  border: 2px solid rgba(233, 10, 82, 0.5);
+  padding: 20px 50px;
+  color: rgba(233, 10, 82, 0.5);
+  font-size: 20px;
+  font-family: Basic, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  border-color: #e90a52;
+  color: #e90a52;
+  background-color: rgba(233, 10, 82, 0.3);
+}
+
+/*# sourceMappingURL=LoginForm.css.map */

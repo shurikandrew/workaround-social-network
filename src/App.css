@@ -1,0 +1,25 @@
+/*
+#f00b51 - primary red
+#e90a52 - primary red v2
+#9e045c - purple
+#610432 - dark red
+#040404 - bg v2
+black/white -  bg
+
+
+
+ */
+
+*{
+    margin:0;
+    padding:0;
+    border: none;
+    font-size:20px;
+    font-family:Basic, monospace;
+
+}
+
+@font-face {
+    font-family: Basic;
+    src: url("./assets/fonts/Basic-Regular.ttf");
+}

@@ -1,0 +1,49 @@
+.login-image{
+  background-image: url('../../assets/login-page-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  width:100%;
+  height: 100%;
+  position: relative;
+
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #040404;
+}
+.card{
+  width: 70%;
+  height: 60%;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 36px;
+  overflow: hidden;
+}
+.left, .right{
+  flex: 1;
+  height: 100%;
+}
+.img-logo{
+  left: 30px;
+  bottom: 10px;
+  height: 90px;
+  z-index: 4;
+  position: absolute;
+}
+
+.login-image:before{
+  position: absolute;
+  opacity: 0.7;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: black;
+  top:0;
+  left: 0;
+  z-index: 2;
+
+}
