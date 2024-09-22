@@ -19,6 +19,10 @@ black/white -  bg
 
 }
 
+body, html, #root{
+    background-color: #330c20;
+}
+
 @font-face {
     font-family: Basic;
     src: url("./assets/fonts/Basic-Regular.ttf");

@@ -1,4 +1,4 @@
-.login-form{
+.register-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,41 +6,41 @@
   gap: 30px;
 }
 
-.login-input{
+.register-input {
   display: flex;
   flex-direction: column-reverse;
   color: rgb(169, 25, 67);
 }
 
-.login-input input{
+.register-input input {
   border: 2px solid transparent;
   border-bottom-color: #9e045c;
   padding: 10px 20px;
   transition: all 0.3s ease-in-out;
   background: transparent;
-  color:  rgb(178, 173, 173);
+  color: rgb(178, 173, 173);
 }
 
-.login-input label{
+.register-input label {
   transition: all 0.3s ease-in-out;
 }
 
-.login-input input:focus{
+.register-input input:focus {
   border-color: #e90a52;
   outline: none;
   background: rgba(233, 10, 82, 0.3);
 }
 
-.login-input input:focus + label{
-  color: rgba(233, 10, 82);
+.register-input input:focus + label {
+  color: rgb(233, 10, 82);
 }
 
-.login-header{
+.register-header {
   font-size: 50px;
   color: rgb(169, 25, 67);
 }
 
-.login-submit-button{
+.register-submit-button {
   background-color: transparent;
   border: 2px solid #9e045c;
   padding: 20px 50px;
@@ -50,8 +50,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.login-submit-button:hover{
-  border-color:  #e90a52;
-  color:  #e90a52;
+.register-submit-button:hover {
+  border-color: #e90a52;
+  color: #e90a52;
   background-color: rgba(233, 10, 82, 0.3);
 }
+
+/*# sourceMappingURL=RegisterForm.css.map */

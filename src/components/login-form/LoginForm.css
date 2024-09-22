@@ -1,26 +1,24 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  height: 100%;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background: #610432;
 }
 
 .login-input {
   display: flex;
   flex-direction: column-reverse;
-  color: rgba(233, 10, 82, 0.5);
+  color: rgb(169, 25, 67);
 }
 
 .login-input input {
   border: 2px solid transparent;
-  border-bottom-color: rgba(233, 10, 82, 0.5);
+  border-bottom-color: #9e045c;
   padding: 10px 20px;
   transition: all 0.3s ease-in-out;
   background: transparent;
-  color: rgba(233, 10, 82, 0.5);
+  color: rgb(178, 173, 173);
 }
 
 .login-input label {
@@ -37,22 +35,22 @@
   color: rgb(233, 10, 82);
 }
 
-.header {
+.login-header {
   font-size: 50px;
-  color: rgba(233, 10, 82, 0.5);
+  color: rgb(169, 25, 67);
 }
 
-.submit-button {
+.login-submit-button {
   background-color: transparent;
-  border: 2px solid rgba(233, 10, 82, 0.5);
+  border: 2px solid #9e045c;
   padding: 20px 50px;
-  color: rgba(233, 10, 82, 0.5);
+  color: rgb(169, 25, 67);
   font-size: 20px;
   font-family: Basic, sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
-.submit-button:hover {
+.login-submit-button:hover {
   border-color: #e90a52;
   color: #e90a52;
   background-color: rgba(233, 10, 82, 0.3);

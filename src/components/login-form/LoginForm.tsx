@@ -4,7 +4,7 @@ type Props ={}
 const LoginForm = (props: Props) => {
     return (
         <form className={"login-form"}>
-            <div className={"header"}>Login</div>
+            <div className={"login-header"}>Login</div>
 
             <div className="login-input">
                 <input type="email" id={"email-login"}/>
@@ -16,7 +16,7 @@ const LoginForm = (props: Props) => {
                 <label htmlFor="pass-login">Password:</label>
             </div>
 
-            <button type={"submit"} className={"submit-button"}>Log in</button>
+            <button type={"submit"} className={"login-submit-button"}>Log in</button>
         </form>
     );
 };

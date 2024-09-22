@@ -1,0 +1,19 @@
+.link-container {
+  display: flex;
+  color: rgba(233, 10, 82, 0.5);
+  background-color: transparent;
+  border: 2px solid #9e045c;
+  padding: 5px 15px;
+  gap: 5px;
+  font-size: 20px;
+  font-family: Basic, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-container:hover {
+  border-color: #e90a52;
+  color: #e90a52;
+  background-color: rgba(233, 10, 82, 0.3);
+}
+
+/*# sourceMappingURL=LinkElement.css.map */
